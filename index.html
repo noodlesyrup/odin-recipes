@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>odin recipe</title>
-    </head>
-    <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-           <li>
-             <a href="./recipes/calcifers-breakfast.html" target="_blank">Calcifer's-Breakfast</a>
-           </li> 
-           <li>
-             <a href="./recipes/tamago-kake.html" target="_blank">Tamago kake Gohan</a>
-           </li>
-           <li>
-             <a href="./recipes/ham-noodle.html" target="_blank">Ponyo's Ham Noodle</a>
-           </li>
-        </ul>
-       
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>odin recipe</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Skranji&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 id="title">Odin Recipes</h1>
+      <div class="top-container">
+        <video id="video-looped" autoplay loop muted>
+          <source src="./vidoes/making-gun-soup.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <small id="credits"
+          >credit:
+          <a href="https://www.youtube.com/watch?v=1BIqhTqrrZA" target="_blank"
+            >Assissination Classroom</a
+          ></small
+        >
+      </div>
+      <div class="bottom-container">
+        <div class="recipe-container">
+          <a href="./recipes/calcifers-breakfast.html" target="_blank"
+            ><img src="./images/Howls-Breakfast.png" alt="bacona and egg" />
+          </a>
+          <p><strong>Calsifer's Breakfast</strong></p>
+        </div>
+        <div class="recipe-container">
+          <a href="./recipes/furukake-rice.html" target="_blank"
+            ><img src="./images/Furukake-rice.png" alt=""
+          /></a>
+          <p><strong>Furukake Rice</strong></p>
+        </div>
+        <div class="recipe-container">
+          <a href="./recipes/ham-noodle.html" target="_blank"
+            ><img
+              src="./images/Ponyo-ham-noodle.jpg"
+              alt="ham, egg, and noodles"
+          /></a>
+          <p><strong>Ponyo's Ham Noodles</strong></p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

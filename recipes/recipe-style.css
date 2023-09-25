@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcyan;
+}
+
+.recipe-card h1{
+  display: flex;
+  font-family: "Skranji", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+  color: #146c94;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.recipe-card{
+    display: flex;
+    flex-direction: column;
+    max-width:500px;
+    height: auto;
+    background-color: lightyellow;
+    margin: 20px auto;
+    padding: 10px 50px;
+    border: 8px double black;
+    
+}
+
+.recipe-card h1{
+    text-align: center;
+}
+
+.recipe-content{
+    
+    padding: 0 20px;
+    text-align: left;
+}
+
+.recipe-image{
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-image img{
+    display: flex;
+    width: 480px;
+    height: 350px;
+    object-fit: cover;
+    border: 9px double black;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
